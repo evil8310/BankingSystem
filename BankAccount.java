@@ -34,7 +34,7 @@ public class BankAccount {
         if (amount > 0) {
             if (balance >= amount) {
                 balance -= amount;
-                System.out.println("Withdrawn " + amount + " units.");
+                System.out.println("Withdrawn " + amount + " Rupees.");
             } else {
                 System.out.println("Insufficient funds.");
             }
