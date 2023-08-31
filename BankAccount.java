@@ -24,7 +24,7 @@ public class BankAccount {
     public void deposit(double amount) {
         if (amount > 0) {
             balance += amount;
-            System.out.println("Deposited " + amount + " units.");
+            System.out.println("Deposited " + amount + " Rupees.");
         } else {
             System.out.println("Invalid deposit amount.");
         }
